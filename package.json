@@ -1,0 +1,14 @@
+{
+  "name": "Cuda Portfolio",
+  "version": "1.0.0",
+  "description": "A demo portfolio site created from a free PSD template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Russell Longstaff",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
