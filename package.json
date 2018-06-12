@@ -1,10 +1,10 @@
 {
-  "name": "Cuda Portfolio",
+  "name": "cuda-portfolio",
   "version": "1.0.0",
   "description": "A demo portfolio site created from a free PSD template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w"
   },
   "author": "Russell Longstaff",
   "license": "ISC",
