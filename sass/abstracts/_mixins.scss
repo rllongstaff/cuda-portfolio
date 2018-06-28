@@ -1,0 +1,29 @@
+// Media query manager
+/*
+0 - 600px       --- Phone
+600px - 900px   --- Tablet Portrait
+900px - 1200px  --- Tablet Landscape
+1200px - 1800px --- Normal desktop
+1800px +        --- Big screen desktop
+
+1em = 16px
+*/
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        // Breaks at 600px work out em by dividing by 16px (1em)
+        @media only screen and (max-width: 37.5em) { @content };
+    }
+    @if $breakpoint == tablet-portrait {
+        // Breaks at 900px work out em by dividing by 16px (1em)
+        @media only screen and (max-width: 56.25em) { @content };
+    }
+    @if $breakpoint == tablet-landscape {
+        // Breaks at 1200px work out em by dividing by 16px (1em)
+        @media only screen and (max-width: 75em) { @content };
+    }
+    @if $breakpoint == big-desktop {
+        // Breaks at 1800px work out em by dividing by 16px (1em)
+        @media only screen and (min-width: 112.5em) { @content };
+    }
+}
