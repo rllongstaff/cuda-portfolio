@@ -9,7 +9,9 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
   box-sizing: border-box; }
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400; }
