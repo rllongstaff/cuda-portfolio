@@ -29,6 +29,20 @@ body {
   background-color: #87509c;
   color: #f7f3ea; }
 
+.col-4-grid {
+  display: grid;
+  grid: auto/repeat(4, 1fr); }
+  @media only screen and (max-width: 56.25em) {
+    .col-4-grid {
+      grid: auto/repeat(2, 1fr); } }
+  @media only screen and (max-width: 37.5em) {
+    .col-4-grid {
+      grid: auto / 1fr; } }
+
+.col-2-grid {
+  display: grid;
+  grid: auto/repeat(2, 1fr); }
+
 .services-section {
   background-color: #17c2a4;
   color: #fff; }
