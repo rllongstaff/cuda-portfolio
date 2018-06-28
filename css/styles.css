@@ -15,3 +15,34 @@ body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.8rem;
   font-weight: 400; }
+
+.header {
+  background-color: #87509c;
+  color: #f7f3ea; }
+
+.services-section {
+  background-color: #17c2a4;
+  color: #fff; }
+
+.team-section {
+  background-color: #e7f1f8;
+  color: #3c4761; }
+
+.skills-section {
+  color: #3c4761; }
+
+.portfolio-section {
+  background-color: #ffdd99;
+  color: #393939; }
+
+.testimonials-section {
+  background-color: #d74680;
+  color: #fff; }
+
+.contact-section {
+  background-color: #3c5499;
+  color: #fff; }
+
+.footer {
+  background-color: #344b8e;
+  color: #fff; }
