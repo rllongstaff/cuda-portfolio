@@ -2,3 +2,9 @@
     background-color: $color-yellow;
     color: $color-black-light;
 }
+
+.project {
+    &__image {
+        width: 100%;
+    }
+}

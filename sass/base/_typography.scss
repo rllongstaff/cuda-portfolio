@@ -17,7 +17,7 @@
     text-align: center; 
 
     &__heading {
-        font-size: 3.2rem;
+        font-size: 3.8rem;
         letter-spacing: .5rem;
         text-transform: uppercase;
     }
@@ -50,3 +50,10 @@
         margin: 0 auto 2rem;
     }
 }
+
+.skill {
+    &__heading {
+        margin-top: 0;  
+    }
+}
+

@@ -21,7 +21,7 @@ html {
   box-sizing: border-box; }
 
 .section {
-  padding: 8rem 2rem; }
+  padding: 8rem 2rem 12rem; }
   .section__underline {
     background: #999;
     border: none;
@@ -44,7 +44,7 @@ html {
 .section {
   text-align: center; }
   .section__heading {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
     letter-spacing: .5rem;
     text-transform: uppercase; }
   .section__text {
@@ -68,6 +68,9 @@ html {
 .team-member__description {
   margin: 0 auto 2rem; }
 
+.skill__heading {
+  margin-top: 0; }
+
 .button {
   border-radius: 3px;
   color: #fff;
@@ -78,7 +81,8 @@ html {
     border-bottom: 4px solid #c86a40; }
   .button--green {
     background-color: #17c2a4;
-    border-bottom: 4px solid #14a58c; }
+    border-bottom: 4px solid #14a58c;
+    margin-top: 10rem; }
   .button--blue {
     background-color: #30bae7;
     border-bottom: 4px solid #299ec5; }
@@ -143,6 +147,9 @@ html {
 .portfolio-section {
   background-color: #ffdd99;
   color: #393939; }
+
+.project__image {
+  width: 100%; }
 
 .testimonials-section {
   background-color: #d74680;
