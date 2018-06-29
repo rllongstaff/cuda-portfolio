@@ -20,14 +20,38 @@ html {
 body {
   box-sizing: border-box; }
 
+.section {
+  padding: 8rem 0; }
+
 body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.8rem;
   font-weight: 400; }
 
+.button {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.section {
+  text-align: center; }
+
+.button {
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  padding: 1.7rem 5.5rem; }
+  .button--orange {
+    background-color: #eb7d4b;
+    border-bottom: 4px solid #c86a40; }
+  .button--green {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c; }
+
 .header {
   background-color: #87509c;
-  color: #f7f3ea; }
+  color: #f7f3ea;
+  padding: 3rem 0 16rem 0;
+  text-align: center; }
 
 .col-4-grid {
   display: grid;
@@ -68,4 +92,5 @@ body {
 
 .footer {
   background-color: #344b8e;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
