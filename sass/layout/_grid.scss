@@ -1,6 +1,7 @@
 .col-4-grid {
     display: grid;
     grid: auto / repeat(4, 1fr);
+    grid-gap: 2rem;
 
     @include respond(tablet-portrait) {
         grid: auto / repeat(2, 1fr);
@@ -14,4 +15,5 @@
 .col-2-grid {
     display: grid;
     grid: auto / repeat(2, 1fr);
+    grid-gap: 2rem;
 }

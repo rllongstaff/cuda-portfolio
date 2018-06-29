@@ -13,4 +13,9 @@
         background-color: $color-green;
         border-bottom: 4px solid $color-green-dark;
     }
+
+    &--blue {
+        background-color: $color-pale-blue-light-1;
+        border-bottom: 4px solid $color-pale-blue-light-2;
+    }
 }

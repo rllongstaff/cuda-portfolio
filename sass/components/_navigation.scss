@@ -1,0 +1,16 @@
+.navigation-list {
+    display: flex;
+    list-style: none;
+
+    &__item {
+        margin: 0 2.2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &--main {
+        justify-content: flex-end; 
+    }
+}

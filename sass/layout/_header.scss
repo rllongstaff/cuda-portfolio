@@ -1,6 +1,15 @@
 .header {
     background-color: $color-purple;
     color: $color-white-dark-2;
-    padding: 3rem 0 16rem 0;
+    padding: 3rem 2rem 16rem;
     text-align: center;
+
+    &__heading {
+        margin: 12rem 0 6rem; 
+    }
+}
+
+.logo-box {
+    display: flex;
+    justify-content: flex-start; 
 }

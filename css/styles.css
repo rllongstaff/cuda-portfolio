@@ -17,13 +17,13 @@
 html {
   font-size: 62.5%; }
 
-body {
+.body {
   box-sizing: border-box; }
 
 .section {
-  padding: 8rem 0; }
+  padding: 8rem 2rem; }
 
-body {
+.body {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.8rem;
   font-weight: 400; }
@@ -31,6 +31,9 @@ body {
 .button {
   text-decoration: none;
   text-transform: uppercase; }
+
+.navigation {
+  text-align: left; }
 
 .section {
   text-align: center; }
@@ -46,16 +49,36 @@ body {
   .button--green {
     background-color: #17c2a4;
     border-bottom: 4px solid #14a58c; }
+  .button--blue {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5; }
+
+.navigation-list {
+  display: flex;
+  list-style: none; }
+  .navigation-list__item {
+    margin: 0 2.2rem; }
+  .navigation-list__link {
+    text-decoration: none; }
+  .navigation-list--main {
+    justify-content: flex-end; }
 
 .header {
   background-color: #87509c;
   color: #f7f3ea;
-  padding: 3rem 0 16rem 0;
+  padding: 3rem 2rem 16rem;
   text-align: center; }
+  .header__heading {
+    margin: 12rem 0 6rem; }
+
+.logo-box {
+  display: flex;
+  justify-content: flex-start; }
 
 .col-4-grid {
   display: grid;
-  grid: auto/repeat(4, 1fr); }
+  grid: auto/repeat(4, 1fr);
+  grid-gap: 2rem; }
   @media only screen and (max-width: 56.25em) {
     .col-4-grid {
       grid: auto/repeat(2, 1fr); } }
@@ -65,7 +88,8 @@ body {
 
 .col-2-grid {
   display: grid;
-  grid: auto/repeat(2, 1fr); }
+  grid: auto/repeat(2, 1fr);
+  grid-gap: 2rem; }
 
 .services-section {
   background-color: #17c2a4;
