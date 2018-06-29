@@ -2,3 +2,50 @@
     background-color: $color-blue;
     color: $color-white;
 }
+
+.contact-form {
+    &__input {
+        background: $color-blue-dark-2;
+        border: none; 
+        border-radius: 3px;
+        color: $color-white;
+        display: block;
+        padding: 1rem;
+
+        &::-webkit-input-placeholder {
+            color: $color-white;
+        }         
+    }
+
+    &_label {
+        display: block;
+        transition: all .3s;
+    }    
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem); 
+    }
+
+    &__textarea {
+        background: $color-blue-dark-2;
+        border: none;
+        border-radius: 3px;
+        color: $color-white;
+        display: block;
+        padding: 1rem;
+        transition: all .3s;
+
+        &::-webkit-input-placeholder {
+            color: $color-white;
+        } 
+
+    }
+
+    &__textarea:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+}

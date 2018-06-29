@@ -71,6 +71,17 @@ html {
 .skill__heading {
   margin-top: 0; }
 
+.testimonial__text {
+  font-style: italic; }
+
+.testimonial__heading {
+  line-height: 2.3rem;
+  margin-bottom: 0; }
+
+.testimonial__title {
+  color: #ffdd99;
+  font-weight: normal; }
+
 .button {
   border-radius: 3px;
   color: #fff;
@@ -155,9 +166,57 @@ html {
   background-color: #d74680;
   color: #fff; }
 
+.testimonial-card {
+  display: grid;
+  grid: auto/repeat(2, 1fr); }
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left; }
+  .testimonial__image {
+    width: 42%; }
+
 .contact-section {
   background-color: #3c5499;
   color: #fff; }
+
+.contact-form__input {
+  background: #273a71;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  padding: 1rem; }
+  .contact-form__input::-webkit-input-placeholder {
+    color: #fff; }
+
+.contact-form_label {
+  display: block;
+  transition: all .3s; }
+
+.contact-form__input:placeholder-shown + .contact-form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
+
+.contact-form__textarea {
+  background: #273a71;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  transition: all .3s; }
+  .contact-form__textarea::-webkit-input-placeholder {
+    color: #fff; }
+
+.contact-form__textarea:placeholder-shown + .contact-form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
 
 .footer {
   background-color: #344b8e;

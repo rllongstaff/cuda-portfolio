@@ -2,3 +2,20 @@
     background-color: $color-pink;
     color: $color-white;
 }
+
+.testimonial-card {
+    display: grid;
+    grid: auto / repeat(2, 1fr);
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start; 
+    align-items: flex-start;
+    text-align: left; 
+
+    &__image {
+        width: 42%; 
+    }
+}
