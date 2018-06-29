@@ -18,4 +18,12 @@ html {
 
 .section {
     padding: 8rem 2rem;
+
+    &__underline {
+        background: $color-grey; 
+        border: none;
+        height: 4px;
+        margin: .8rem auto 2rem;  
+        width: 9rem;
+    }
 }

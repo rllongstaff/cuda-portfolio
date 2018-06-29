@@ -22,6 +22,12 @@ html {
 
 .section {
   padding: 8rem 2rem; }
+  .section__underline {
+    background: #999;
+    border: none;
+    height: 4px;
+    margin: .8rem auto 2rem;
+    width: 9rem; }
 
 .body {
   font-family: 'Titillium Web', sans-serif;
@@ -37,6 +43,30 @@ html {
 
 .section {
   text-align: center; }
+  .section__heading {
+    font-size: 3.2rem;
+    letter-spacing: .5rem;
+    text-transform: uppercase; }
+  .section__text {
+    margin: 0 auto 8rem;
+    width: 45%; }
+
+.small-heading {
+  font-size: 2.3rem;
+  letter-spacing: .1rem;
+  margin: 2rem 0;
+  text-transform: uppercase; }
+
+.team-member__name {
+  margin-bottom: .3rem; }
+
+.team-member__title {
+  color: #30bae7;
+  font-weight: normal;
+  margin: 0 auto 2rem; }
+
+.team-member__description {
+  margin: 0 auto 2rem; }
 
 .button {
   border-radius: 3px;
@@ -69,7 +99,8 @@ html {
   padding: 3rem 2rem 16rem;
   text-align: center; }
   .header__heading {
-    margin: 12rem 0 6rem; }
+    margin: 12rem 0 6rem;
+    width: 90%; }
 
 .logo-box {
   display: flex;
@@ -98,6 +129,13 @@ html {
 .team-section {
   background-color: #e7f1f8;
   color: #3c4761; }
+
+.social-buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center; }
+  .social-buttons__item {
+    margin: 0 .4rem; }
 
 .skills-section {
   color: #3c4761; }

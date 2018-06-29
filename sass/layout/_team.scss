@@ -2,3 +2,13 @@
     background-color: $color-pale-blue;
     color: $color-pale-blue-dark-2;
 }
+
+.social-buttons {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+    &__item {
+        margin: 0 .4rem;
+    }
+}
