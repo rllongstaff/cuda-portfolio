@@ -1,3 +1,7 @@
 .skills-section {
     color: $color-pale-blue-dark-2;
+
+    &__underline {
+        background: $color-white-dark-1;
+    }
 }

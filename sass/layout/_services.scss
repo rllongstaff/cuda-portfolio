@@ -1,4 +1,8 @@
 .services-section {
     background-color: $color-green;
     color: $color-white;
+
+    &__underline {
+        background: $color-green-dark;
+    }
 }

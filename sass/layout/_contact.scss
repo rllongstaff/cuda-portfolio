@@ -1,6 +1,10 @@
 .contact-section {
     background-color: $color-blue;
     color: $color-white;
+
+    &__underline {
+        background: $color-blue-dark-2;
+    }
 }
 
 .contact-form {

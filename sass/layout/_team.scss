@@ -1,6 +1,10 @@
 .team-section {
     background-color: $color-pale-blue;
     color: $color-pale-blue-dark-2;
+
+    &__underline {
+        background: $color-pale-blue-2;
+    }
 }
 
 .social-buttons {

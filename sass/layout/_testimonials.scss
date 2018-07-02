@@ -1,6 +1,10 @@
 .testimonials-section {
     background-color: $color-pink;
     color: $color-white;
+
+    &__underline {
+        background: $color-pink-dark; 
+    }
 }
 
 .testimonial-card {

@@ -1,6 +1,10 @@
 .portfolio-section {
     background-color: $color-yellow;
     color: $color-black-light;
+
+    &__underline {
+        background: $color-yellow-dark;
+    }
 }
 
 .project {

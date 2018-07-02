@@ -51,12 +51,6 @@ html {
     margin: 0 auto 8rem;
     width: 45%; }
 
-.small-heading {
-  font-size: 2.3rem;
-  letter-spacing: .1rem;
-  margin: 2rem 0;
-  text-transform: uppercase; }
-
 .team-member__name {
   margin-bottom: .3rem; }
 
@@ -89,6 +83,12 @@ html {
 .contact-form__textarea {
   font-size: 1.8rem;
   font-family: 'Titillium Web', sans-serif; }
+
+.small-heading {
+  font-size: 2.3rem;
+  letter-spacing: .1rem;
+  margin: 2rem 0;
+  text-transform: uppercase; }
 
 .button {
   border-radius: 3px;
@@ -162,10 +162,14 @@ html {
 .services-section {
   background-color: #17c2a4;
   color: #fff; }
+  .services-section__underline {
+    background: #14a58c; }
 
 .team-section {
   background-color: #e7f1f8;
   color: #3c4761; }
+  .team-section__underline {
+    background: #c8d9e5; }
 
 .social-buttons {
   display: flex;
@@ -176,10 +180,14 @@ html {
 
 .skills-section {
   color: #3c4761; }
+  .skills-section__underline {
+    background: #dfe8ed; }
 
 .portfolio-section {
   background-color: #ffdd99;
   color: #393939; }
+  .portfolio-section__underline {
+    background: #ebc985; }
 
 .project__image {
   width: 100%; }
@@ -187,6 +195,8 @@ html {
 .testimonials-section {
   background-color: #d74680;
   color: #fff; }
+  .testimonials-section__underline {
+    background: #b73c6d; }
 
 .testimonial-card {
   display: grid;
@@ -204,6 +214,8 @@ html {
 .contact-section {
   background-color: #3c5499;
   color: #fff; }
+  .contact-section__underline {
+    background: #273a71; }
 
 .contact-form {
   margin: 0 auto;
