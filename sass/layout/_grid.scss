@@ -16,4 +16,14 @@
     display: grid;
     grid: auto / repeat(2, 1fr);
     grid-gap: 2rem;
+
+    &--contact-form {
+        @include respond(phone) {
+            grid-gap: 0;
+        }
+    }
+
+    @include respond(phone) {
+        grid: auto / 1fr;
+    }
 }
