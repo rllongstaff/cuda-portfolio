@@ -74,3 +74,20 @@
     }
 }
 
+.contact-form {
+
+    &__label {
+
+    }
+
+    &__input {
+        font-size: 1.8rem;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    &__textarea {
+        font-size: 1.8rem;
+        font-family: 'Titillium Web', sans-serif;
+    }
+}
+

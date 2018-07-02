@@ -4,22 +4,27 @@
 }
 
 .contact-form {
+    margin: 0 auto; 
+    width: 70%;
+
     &__input {
         background: $color-blue-dark-2;
         border: none; 
         border-radius: 3px;
         color: $color-white;
         display: block;
-        padding: 1rem;
+        padding: 1.8rem;
+        width: 100%;
 
         &::-webkit-input-placeholder {
-            color: $color-white;
+            color: $color-white;  
         }         
     }
 
-    &_label {
+    &__label {
         display: block;
-        transition: all .3s;
+        text-align: left; 
+        transition: all .3s; 
     }    
 
     &__input:placeholder-shown + &__label {
@@ -34,8 +39,9 @@
         border-radius: 3px;
         color: $color-white;
         display: block;
-        padding: 1rem;
+        padding: 1.8rem;
         transition: all .3s;
+        width: 100%;
 
         &::-webkit-input-placeholder {
             color: $color-white;
@@ -48,4 +54,8 @@
         visibility: hidden;
         transform: translateY(-4rem);
     }
+}
+
+.form-element {
+    margin-bottom: 1.8rem;
 }
