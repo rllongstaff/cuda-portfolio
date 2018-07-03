@@ -207,6 +207,9 @@ html {
 .testimonial-card {
   display: grid;
   grid: auto/repeat(2, 1fr); }
+  @media only screen and (max-width: 37.5em) {
+    .testimonial-card {
+      grid: auto / 1fr; } }
 
 .testimonial {
   display: flex;
@@ -214,8 +217,17 @@ html {
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left; }
+  @media only screen and (max-width: 37.5em) {
+    .testimonial {
+      align-items: center; } }
   .testimonial__image {
     width: 42%; }
+    @media only screen and (max-width: 56.25em) {
+      .testimonial__image {
+        width: 60%; } }
+    @media only screen and (max-width: 37.5em) {
+      .testimonial__image {
+        width: 70%; } }
 
 .contact-section {
   background-color: #3c5499;

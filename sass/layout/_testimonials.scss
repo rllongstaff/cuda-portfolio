@@ -10,6 +10,10 @@
 .testimonial-card {
     display: grid;
     grid: auto / repeat(2, 1fr);
+
+    @include respond(phone) {
+        grid: auto / 1fr;
+    }
 }
 
 .testimonial {
@@ -19,7 +23,19 @@
     align-items: flex-start;
     text-align: left; 
 
+    @include respond(phone) {
+        align-items: center; 
+    }
+
     &__image {
-        width: 42%; 
+        width: 42%;
+        
+        @include respond(tablet-portrait) {
+            width: 60%;
+        }
+
+        @include respond(phone) {
+            width: 70%; 
+        }
     }
 }
