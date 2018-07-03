@@ -9,8 +9,23 @@
     text-transform: uppercase;
 }
 
-.navigation {
-    text-align: left;
+.navigation-portfolio {
+    margin-bottom: 6rem;
+
+    &__item {
+
+    }
+
+    &__link {
+        text-transform: uppercase; 
+    }
+}
+
+.project {
+    &__heading {
+        font-weight: 400;
+        text-transform: uppercase;
+    }
 }
 
 .section {

@@ -29,7 +29,11 @@
         display: block;
         text-align: left; 
         transition: all .3s; 
-    }    
+    } 
+    
+    &__span {
+        color: $color-red;
+    }
 
     &__input:placeholder-shown + &__label {
         opacity: 0;

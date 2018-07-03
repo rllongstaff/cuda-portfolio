@@ -38,8 +38,14 @@ html {
   text-decoration: none;
   text-transform: uppercase; }
 
-.navigation {
-  text-align: left; }
+.navigation-portfolio {
+  margin-bottom: 6rem; }
+  .navigation-portfolio__link {
+    text-transform: uppercase; }
+
+.project__heading {
+  font-weight: 400;
+  text-transform: uppercase; }
 
 .section {
   text-align: center; }
@@ -90,6 +96,9 @@ html {
   margin: 2rem 0;
   text-transform: uppercase; }
 
+.small-margin-bottom {
+  margin-bottom: 4rem; }
+
 .button {
   border-radius: 3px;
   color: #fff;
@@ -123,12 +132,33 @@ html {
     text-decoration: none; }
     .navigation-list__link:link, .navigation-list__link:visited {
       color: #fff; }
-  .navigation-list--main {
-    justify-content: flex-end; }
-  .navigation-list--tabs {
-    justify-content: center; }
-  .navigation-list--footer {
-    justify-content: center; }
+
+.navigation-main {
+  justify-content: flex-end; }
+  @media only screen and (max-width: 37.5em) {
+    .navigation-main {
+      flex-direction: column;
+      align-items: flex-end; } }
+
+.navigation-portfolio {
+  justify-content: center; }
+  .navigation-portfolio__item {
+    margin: 0 .6rem; }
+  .navigation-portfolio__link {
+    border-radius: 4px;
+    display: block;
+    padding: 1rem 2.5rem; }
+    .navigation-portfolio__link:link, .navigation-portfolio__link:visited {
+      background: #ebc985;
+      color: #393939; }
+    .navigation-portfolio__link:hover, .navigation-portfolio__link:active {
+      background: #fff; }
+
+.navigation-footer {
+  justify-content: center; }
+  @media only screen and (max-width: 37.5em) {
+    .navigation-footer {
+      flex-wrap: wrap; } }
 
 .header {
   background-color: #87509c;
@@ -252,6 +282,8 @@ html {
     display: block;
     text-align: left;
     transition: all .3s; }
+  .contact-form__span {
+    color: #ff4444; }
   .contact-form__input:placeholder-shown + .contact-form__label {
     opacity: 0;
     visibility: hidden;

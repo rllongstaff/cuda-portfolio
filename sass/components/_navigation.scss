@@ -15,16 +15,46 @@
             color: $color-white;
         }
     }
+}
 
-    &--main {
-        justify-content: flex-end; 
+.navigation-main {
+    justify-content: flex-end; 
+
+    @include respond(phone) {
+        flex-direction: column;
+        align-items: flex-end;         
+    }
+}
+
+.navigation-portfolio {
+    justify-content: center;
+
+    &__item {
+        margin: 0 .6rem; 
     }
 
-    &--tabs {
-        justify-content: center;
-    }
+    &__link {
+        border-radius: 4px;
+        display:block;
+        padding: 1rem 2.5rem;
 
-    &--footer {
-        justify-content: center;
+        &:link,
+        &:visited {
+            background: $color-yellow-dark;
+            color: $color-black-light;
+        }
+
+        &:hover,
+        &:active {
+            background: $color-white;
+        }
+    }
+}
+
+.navigation-footer {
+    justify-content: center;
+
+    @include respond(phone) {
+        flex-wrap: wrap;
     }
 }
