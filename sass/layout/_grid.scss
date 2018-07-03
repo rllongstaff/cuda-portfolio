@@ -9,6 +9,7 @@
 
     @include respond(phone) {
         grid: auto / 1fr;
+        grid-gap: 8rem;
     }
 }
 
@@ -17,13 +18,16 @@
     grid: auto / repeat(2, 1fr);
     grid-gap: 2rem;
 
+
+
+    @include respond(phone) {
+        grid: auto / 1fr;
+        grid-gap: 8rem;
+    }
+
     &--contact-form {
         @include respond(phone) {
             grid-gap: 0;
         }
-    }
-
-    @include respond(phone) {
-        grid: auto / 1fr;
-    }
+    }    
 }

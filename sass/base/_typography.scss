@@ -40,12 +40,19 @@
     &__text {
         margin: 0 auto 8rem;
         width: 45%;
+
+        @include respond(phone) {
+            width: 60%;
+        }
     }
 }
 
 .team-member {
     &__name {
-        margin-bottom: .3rem;
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+        margin: 2rem 0 .3rem; 
+        text-transform: uppercase; 
     }
 
     &__title {
@@ -68,11 +75,17 @@
 .testimonial {
     &__text {
         font-style: italic;
+
+        @include respond(phone) {
+            width: 80%; 
+        }
     }
 
     &__heading {
+        font-size: 2.3rem;
         line-height: 2.3rem;
-        margin-bottom: 0;
+        margin: 2rem 0 0; 
+        text-transform: uppercase;         
     }
 
     &__title {
