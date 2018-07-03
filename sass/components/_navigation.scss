@@ -29,6 +29,10 @@
 .navigation-portfolio {
     justify-content: center;
 
+    @include respond(phone) {
+        display: none;
+    }
+
     &__item {
         margin: 0 .6rem; 
     }

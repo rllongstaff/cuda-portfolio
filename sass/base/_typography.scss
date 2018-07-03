@@ -4,6 +4,11 @@
     font-weight: 400;    
 }
 
+.menu-icon {
+    color: $color-white-dark-2;
+    font-size: 3rem;
+}
+
 .button {
     text-decoration: none;
     text-transform: uppercase;
@@ -34,6 +39,7 @@
     &__heading {
         font-size: 3.8rem;
         letter-spacing: .5rem;
+        line-height: 4.2rem;
         text-transform: uppercase;
     }
 

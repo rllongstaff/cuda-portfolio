@@ -14,3 +14,11 @@
     display: flex;
     justify-content: flex-start; 
 }
+
+.menu-icon {
+    display: none;
+
+    @include respond(phone) {
+        display: block;
+    }
+}

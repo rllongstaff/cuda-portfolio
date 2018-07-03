@@ -11,6 +11,10 @@
     margin: 0 auto; 
     width: 70%;
 
+    @include respond(phone) {
+        width: 100%;
+    }
+
     &__input {
         background: $color-blue-dark-2;
         border: none; 

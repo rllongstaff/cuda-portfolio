@@ -34,6 +34,10 @@ html {
   font-size: 1.8rem;
   font-weight: 400; }
 
+.menu-icon {
+  color: #f7f3ea;
+  font-size: 3rem; }
+
 .button {
   text-decoration: none;
   text-transform: uppercase; }
@@ -52,6 +56,7 @@ html {
   .section__heading {
     font-size: 3.8rem;
     letter-spacing: .5rem;
+    line-height: 4.2rem;
     text-transform: uppercase; }
   .section__text {
     margin: 0 auto 8rem;
@@ -148,11 +153,15 @@ html {
   justify-content: flex-end; }
   @media only screen and (max-width: 37.5em) {
     .navigation-main {
+      display: none;
       flex-direction: column;
       align-items: flex-end; } }
 
 .navigation-portfolio {
   justify-content: center; }
+  @media only screen and (max-width: 37.5em) {
+    .navigation-portfolio {
+      display: none; } }
   .navigation-portfolio__item {
     margin: 0 .6rem; }
   .navigation-portfolio__link {
@@ -186,6 +195,12 @@ html {
   display: flex;
   justify-content: flex-start; }
 
+.menu-icon {
+  display: none; }
+  @media only screen and (max-width: 37.5em) {
+    .menu-icon {
+      display: block; } }
+
 .col-4-grid {
   display: grid;
   grid: auto/repeat(4, 1fr);
@@ -209,6 +224,9 @@ html {
   @media only screen and (max-width: 37.5em) {
     .col-2-grid--contact-form {
       grid-gap: 0; } }
+
+.header-grid {
+  grid: auto/repeat(2, 1fr); }
 
 .services-section {
   background-color: #17c2a4;
@@ -283,6 +301,9 @@ html {
 .contact-form {
   margin: 0 auto;
   width: 70%; }
+  @media only screen and (max-width: 37.5em) {
+    .contact-form {
+      width: 100%; } }
   .contact-form__input {
     background: #273a71;
     border: none;
