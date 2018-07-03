@@ -57,4 +57,10 @@
     @include respond(phone) {
         flex-wrap: wrap;
     }
+
+    &__link {
+        &:hover {
+            color: $color-pale-blue-light-1;
+        }
+    }
 }

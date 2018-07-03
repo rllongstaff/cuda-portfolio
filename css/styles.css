@@ -159,6 +159,8 @@ html {
   @media only screen and (max-width: 37.5em) {
     .navigation-footer {
       flex-wrap: wrap; } }
+  .navigation-footer__link:hover {
+    color: #30bae7; }
 
 .header {
   background-color: #87509c;
@@ -166,7 +168,7 @@ html {
   padding: 3rem 2rem 16rem;
   text-align: center; }
   .header__heading {
-    margin: 12rem 0 6rem;
+    margin: 12rem auto 6rem;
     width: 90%; }
 
 .logo-box {
