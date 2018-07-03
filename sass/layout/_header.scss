@@ -19,6 +19,6 @@
     display: none;
 
     @include respond(phone) {
-        display: block;
+        // display: block;
     }
 }

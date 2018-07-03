@@ -199,9 +199,6 @@ html {
 
 .menu-icon {
   display: none; }
-  @media only screen and (max-width: 37.5em) {
-    .menu-icon {
-      display: block; } }
 
 .col-4-grid {
   display: grid;
